@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+*{box-sizing:border-box;}
+.code-container{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+}
+.code {
+    width: 50px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6f7fb;
+}
+
+.container {
+    width: 450px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#verification_heading {
+    margin-bottom: 10px;
+	text-align:center;
+}
+
+#verification_subtext {
+    color: #777;
+    margin-bottom: 30px;
+	text-align:center;
+}
